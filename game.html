@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="titleGamePage" class="nameNav"></title>
+  </head>
+  <body class="relative">
+    <header class="header">
+      <div class="nav__item nav__item-game">
+        <a href="index.html" class="nav__link nav__link-game">Меню</a>
+      </div>
+      <a
+        href="./index.html"
+        class="header__menu absolute left-3 top-3 w-16 block lg:hidden"
+        ><img
+          src="./public/favicon/menu.svg"
+          alt="Возврат в меню"
+          class="header__image"
+      /></a>
+      <h1 class="header__title header__title-game">
+        Тема: <span class="nameNav"></span>
+      </h1>
+    </header>
+    <main class="main flex flex-col gap-10">
+      <section class="image flex justify-center items-center h-[40vh]">
+        <div class="image__block"></div>
+      </section>
+      <section
+        class="word flex justify-center items-center gap-4 h-[8vh]"
+      ></section>
+      <section
+        class="letters max-w-[600px] m-auto flex flex-wrap justify-center gap-3"
+      >
+        <button class="letters__letter letter">а</button
+        ><button class="letters__letter letter">б</button
+        ><button class="letters__letter letter">в</button
+        ><button class="letters__letter letter">г</button
+        ><button class="letters__letter letter">д</button
+        ><button class="letters__letter letter">е</button
+        ><button class="letters__letter letter">ё</button
+        ><button class="letters__letter letter">ж</button
+        ><button class="letters__letter letter">з</button
+        ><button class="letters__letter letter">и</button
+        ><button class="letters__letter letter">й</button
+        ><button class="letters__letter letter">к</button
+        ><button class="letters__letter letter">л</button
+        ><button class="letters__letter letter">м</button
+        ><button class="letters__letter letter">н</button
+        ><button class="letters__letter letter">о</button
+        ><button class="letters__letter letter">п</button
+        ><button class="letters__letter letter">р</button
+        ><button class="letters__letter letter">с</button
+        ><button class="letters__letter letter">т</button
+        ><button class="letters__letter letter">у</button
+        ><button class="letters__letter letter">ф</button
+        ><button class="letters__letter letter">х</button
+        ><button class="letters__letter letter">ц</button
+        ><button class="letters__letter letter">ч</button
+        ><button class="letters__letter letter">ш</button
+        ><button class="letters__letter letter">щ</button
+        ><button class="letters__letter letter">ь</button
+        ><button class="letters__letter letter">ы</button
+        ><button class="letters__letter letter">ъ</button
+        ><button class="letters__letter letter">э</button
+        ><button class="letters__letter letter">ю</button
+        ><button class="letters__letter letter">я</button>
+      </section>
+      <section class="dialog hidden">
+        <div class="dialog__block">
+          <h3 class="dialog__title"></h3>
+          <div class="dialog__buttons">
+            <a href="./game.html" class="dialog__button">Повторить</a>
+            <a href="./index.html" class="dialog__button">В меню</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="src/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+body {
+  font-family: $font-main;
+  background: $background-color;
+  background-size: 20px 20px;
+  background-position: center center;
+  color: $main-color;
+  font-weight: 300;
+  font-size: 16px;
+  overflow-x: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.true {
+  background: url("../favicon/yes.svg") center no-repeat;
+  background-size: 70%;
+}
+
+.false {
+  background: url("../favicon/no.svg") center no-repeat;
+  background-size: 50%;
+}

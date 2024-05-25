@@ -1,0 +1,22 @@
+// Tailwind
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Base
+@import "normalize.css";
+@import "./base/vars";
+@import "./base/base";
+
+// INDEX Header
+@import "./blocks/header";
+@import "./blocks/nav";
+
+// GAME Word
+@import "./blocks/word";
+
+// GAME Letters
+@import "./blocks/letters";
+
+// GAME Dialog Box
+@import "./blocks/dialog";

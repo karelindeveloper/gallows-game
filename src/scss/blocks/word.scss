@@ -1,0 +1,7 @@
+.word {
+  @apply w-[100vw] px-5;
+
+  &__block {
+    @apply w-9 h-[45px] flex justify-center uppercase text-4xl border-b-[5px] border-current md:text-6xl md:w-16 md:h-[65px];
+  }
+}

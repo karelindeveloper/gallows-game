@@ -1,0 +1,21 @@
+.nav {
+  @apply text-center text-4xl font-normal;
+
+  &__list {
+    @apply flex flex-col gap-7 items-center mb-7;
+  }
+  &__item {
+    @apply border border-current bg-second w-full lg:w-[400px];
+
+    &-game {
+      @apply absolute left-3 top-3 w-auto hidden lg:block;
+    }
+  }
+  &__link {
+    @apply w-full py-1 block;
+
+    &-game {
+      @apply text-3xl px-5 font-medium;
+    }
+  }
+}

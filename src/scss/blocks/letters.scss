@@ -1,0 +1,11 @@
+.letters {
+  @apply px-6;
+
+  &__letter {
+    @apply text-3xl uppercase w-[22px] h-9 md:text-4xl md:w-12 md:h-[52px] relative;
+
+    &:hover {
+      @apply text-4xl md:text-5xl;
+    }
+  }
+}
